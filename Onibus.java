@@ -66,10 +66,8 @@ public class Onibus {
 		
 		if(this.poltrona > 0 && this.poltrona < Total_Lugares && passageiro[this.poltrona] == null) {
 		
-		   //this.poltrona = poltrona;
-			passageiro[this.poltrona] = pas;
-		   //this.poltrona++;
-		   
+		   passageiro[this.poltrona] = pas;
+		   		   
 		}else if(passageiro[this.poltrona] != null) {
 			
 			System.out.println("Assento ocupado \n");
